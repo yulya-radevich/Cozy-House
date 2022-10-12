@@ -1,0 +1,23 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+
+//============================== delete
+body {
+    background-color: yellow;
+
+    .blue {
+        background-color: blue;
+        width: 400px;
+        height: 400px;
+
+        .red {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+    }
+}
+//=======================================
+
+@import "media";

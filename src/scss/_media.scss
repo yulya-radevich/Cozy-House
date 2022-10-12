@@ -1,0 +1,32 @@
+@media (max-width: 1200px) {
+  //============================== delete
+  body {
+    background-color: green;
+
+    .blue {
+      background-color: blue;
+      width: 220px;
+      height: 400px;
+
+      .red {
+        width: 200px;
+        height: 300px;
+        background-color: red;
+      }
+    }
+  }
+  //==============================
+
+}
+
+@media (max-width: 972px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 600px) {
+
+}
