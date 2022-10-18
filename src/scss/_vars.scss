@@ -1,0 +1,28 @@
+$color-whit: #FFFFFF;
+$color-grey: #CDCDCD;
+$color-link: #F1CDB3;
+$color-btn-txt: #292929;
+$georgia-ff: 'Georgia', sans-serif;
+$arial-ff: 'Arial', sans-serif;
+$fs-primary: 15px;
+$fs-title: 44px;
+$fs-button: 17px;
+
+%primary-button {
+  width: 207px;
+  height: 52px;
+  background: $color-link;
+  border-radius: 100px;
+  border: none;
+  font-size: $fs-button;
+  line-height: 130%;
+  font-family: $georgia-ff;
+  color: $color-btn-txt;
+  letter-spacing: 0.06em;
+}
+
+%text-arial-fs-primary{
+  font-family: $arial-ff;
+  font-size: $fs-primary;
+  line-height: 160%;
+}
