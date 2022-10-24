@@ -32,12 +32,12 @@ body {
     }
 
     .nav__link {
+      @extend %text-arial-fs-primary;
       position: relative;
       color: $color-grey;
       cursor: pointer;
       line-height: 1;
       text-decoration: none;
-      @extend %text-arial-fs-primary;
 
       &::after {
         position: absolute;
@@ -75,21 +75,27 @@ body {
       .main-page__title {
         font-family: $georgia-ff;
         font-weight: 400;
-        font-size: $fs-title;
+        font-size: $fz-title;
         width: 310px;
         height: 114px;
         line-height: 130%;
-        color: $color-whit;
+        color: $color-white;
       }
 
       .main-page__text {
+        @extend %text-arial-fs-primary;
         color: $color-grey;
         margin: 42px 0;
-        @extend %text-arial-fs-primary;
       }
 
       .header__button {
         @extend %primary-button;
+        width: 207px;
+        height: 52px;
+
+        &:hover{
+          @extend %primary-button-filled;
+        }
       }
 
       .main-img__puppy {
@@ -101,7 +107,7 @@ body {
   .about-pets__container {
     width: 100%;
     height: 588px;
-    background-color: $color-whit;
+    background-color: $color-white;
     display: flex;
     justify-content: center;
     padding-top: 80px;
@@ -125,15 +131,123 @@ body {
           width: 370px;
           font-family: $georgia-ff;
           font-weight: 400;
-          font-size: $fs-grey-title;
+          font-size: $fz-title-grey;
           line-height: 130%;
-          letter-spacing: 0.06em;
-          color: $color-grey-title;
+          letter-spacing: $ls-text;
+          color: $color-title-grey;
         }
 
         .about-pets__text {
           @extend %text-arial-fs-primary;
-          color: $color-dark-grey;
+          color: $color-grey-dark;
+        }
+      }
+    }
+  }
+
+  .catalog-friends__container {
+    width: 100%;
+    height: 877px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+
+    .catalog-friends__container-information {
+      width: 1200px;
+      height: 697px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      .catalog-friends__title {
+        font-family: $georgia-ff;
+        font-style: normal;
+        font-weight: 400;
+        font-size: $fz-title-grey;
+        line-height: 130%;
+        letter-spacing: $ls-text;
+        color: $color-title-grey;
+        width: 400px;
+        text-align: center;
+      }
+
+      .catalog-friends__box {
+        width: 1200px;
+        height: 435px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .catalog-friends__pets{
+          display: flex;
+          justify-content: space-between;
+          flex: 1;
+          margin: 0 53px;
+        }
+
+        .catalog-friends__pets-item {
+          width: 270px;
+          height: 435px;
+          background-color: $color-white-pets;
+          border-radius: 9px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .catalog-friends__name {
+          font-family: $georgia-ff;
+          font-style: normal;
+          font-weight: 400;
+          font-size: $fz-pets-name;
+          line-height: 23px;
+          letter-spacing: $ls-text;
+          color: $color-title-grey;
+          margin-bottom: 30px;
+          margin-top: 30px;
+        }
+
+        .button__learn-more {
+          @extend %transparent-button;
+          width: 187px;
+          height: 52px;
+          font-family: $georgia-ff;
+          font-style: normal;
+          font-weight: 400;
+          font-size: $fz-button;
+          line-height: 130%;
+          letter-spacing: $ls-text;
+          color: $color-btn-txt;
+
+          &:hover{
+            @extend %filled-button;
+          }
+        }
+
+        .pets-slider__btn {
+          @extend %transparent-button;
+          width: 52px;
+          height: 52px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          &:hover{
+            @extend %filled-button;
+          }
+        }
+      }
+
+      .button__rest {
+        @extend %primary-button;
+        width: 261px;
+        height: 52px;
+
+        &:hover{
+          @extend %primary-button-filled;
         }
       }
     }
