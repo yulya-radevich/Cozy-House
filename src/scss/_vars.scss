@@ -1,4 +1,6 @@
 $color-whit: #FFFFFF;
+$color-whit-catalog-friends: #F6F6F6;
+$color-whit-pets: #FAFAFA;
 $color-grey: #CDCDCD;
 $color-link: #F1CDB3;
 $color-grey-title: #545454;
@@ -8,13 +10,13 @@ $georgia-ff: 'Georgia', sans-serif;
 $arial-ff: 'Arial', sans-serif;
 $fs-primary: 15px;
 $fs-button: 17px;
+$fs-name-pets: 20px;
 $fs-grey-title: 35px;
 $fs-title: 44px;
+$ls-text: 0.06em;
 
 
 %primary-button {
-  width: 207px;
-  height: 52px;
   background: $color-link;
   border-radius: 100px;
   border: none;
@@ -23,6 +25,12 @@ $fs-title: 44px;
   font-family: $georgia-ff;
   color: $color-btn-txt;
   letter-spacing: 0.06em;
+}
+
+%transparent-button{
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  background-color: transparent;
 }
 
 %text-arial-fs-primary{

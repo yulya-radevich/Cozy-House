@@ -89,6 +89,8 @@ body {
       }
 
       .header__button {
+        width: 207px;
+        height: 52px;
         @extend %primary-button;
       }
 
@@ -127,7 +129,7 @@ body {
           font-weight: 400;
           font-size: $fs-grey-title;
           line-height: 130%;
-          letter-spacing: 0.06em;
+          letter-spacing: $ls-text;
           color: $color-grey-title;
         }
 
@@ -135,6 +137,94 @@ body {
           @extend %text-arial-fs-primary;
           color: $color-dark-grey;
         }
+      }
+    }
+  }
+
+  .catalog-friends__container {
+    width: 100%;
+    height: 877px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+
+    .catalog-friends__container-information {
+      width: 1200px;
+      height: 697px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      .catalog-friends__title {
+        font-family: $georgia-ff;
+        font-style: normal;
+        font-weight: 400;
+        font-size: $fs-grey-title;
+        line-height: 130%;
+        letter-spacing: $ls-text;
+        color: $color-grey-title;
+        width: 400px;
+        text-align: center;
+      }
+
+      .catalog-friends__box {
+        width: 1200px;
+        height: 435px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .catalog-friends__pets {
+          width: 270px;
+          height: 435px;
+          background-color: $color-whit-pets;
+          border-radius: 9px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-left: 38px;
+          margin-right: 38px;
+        }
+
+        .catalog-friends__name {
+          font-family: $georgia-ff;
+          font-style: normal;
+          font-weight: 400;
+          font-size: $fs-name-pets;
+          line-height: 23px;
+          letter-spacing: $ls-text;
+          color: $color-grey-title;
+          margin-bottom: 30px;
+          margin-top: 30px;
+        }
+
+        .button__learn-more {
+          width: 187px;
+          height: 52px;
+          font-family: $georgia-ff;
+          font-style: normal;
+          font-weight: 400;
+          font-size: $fs-button;
+          line-height: 130%;
+          letter-spacing: $ls-text;
+          color: $color-btn-txt;
+          @extend %transparent-button;
+        }
+
+        .button__next {
+          width: 52px;
+          height: 52px;
+          @extend %transparent-button;
+        }
+      }
+
+      .button__rest {
+        @extend %primary-button;
+        width: 261px;
+        height: 52px;
       }
     }
   }
