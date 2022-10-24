@@ -1,18 +1,19 @@
-$color-whit: #FFFFFF;
-$color-whit-catalog-friends: #F6F6F6;
-$color-whit-pets: #FAFAFA;
+$color-white: #FFFFFF;
+$color-white-catalog-friends: #F6F6F6;
+$color-white-pets: #FAFAFA;
 $color-grey: #CDCDCD;
 $color-link: #F1CDB3;
-$color-grey-title: #545454;
-$color-dark-grey: #4C4C4C;
+$color-link-hover: #FDDCC4;
+$color-title-grey: #545454;
+$color-grey-dark: #4C4C4C;
 $color-btn-txt: #292929;
 $georgia-ff: 'Georgia', sans-serif;
 $arial-ff: 'Arial', sans-serif;
-$fs-primary: 15px;
-$fs-button: 17px;
-$fs-name-pets: 20px;
-$fs-grey-title: 35px;
-$fs-title: 44px;
+$fz-primary: 15px;
+$fz-button: 17px;
+$fz-pets-name: 20px;
+$fz-title-grey: 35px;
+$fz-title: 44px;
 $ls-text: 0.06em;
 
 
@@ -20,21 +21,31 @@ $ls-text: 0.06em;
   background: $color-link;
   border-radius: 100px;
   border: none;
-  font-size: $fs-button;
+  font-size: $fz-button;
   line-height: 130%;
   font-family: $georgia-ff;
   color: $color-btn-txt;
   letter-spacing: 0.06em;
 }
 
+%primary-button-filled{
+  background-color: $color-link;
+  border: none;
+}
+
 %transparent-button{
-  border: 2px solid #F1CDB3;
+  border: 2px solid $color-link;
   border-radius: 100px;
   background-color: transparent;
 }
 
+%filled-button{
+  background-color: $color-link-hover;
+  border: none;
+}
+
 %text-arial-fs-primary{
   font-family: $arial-ff;
-  font-size: $fs-primary;
+  font-size: $fz-primary;
   line-height: 160%;
 }

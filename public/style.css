@@ -11,10 +11,18 @@
   color: #292929;
   letter-spacing: 0.06em; }
 
-.main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .button__learn-more, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .button__next {
+.main .main-page__container .main-page__box .header__button:hover, .main .catalog-friends__container .catalog-friends__container-information .button__rest:hover {
+  background-color: #F1CDB3;
+  border: none; }
+
+.main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .button__learn-more, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .pets-slider__btn {
   border: 2px solid #F1CDB3;
   border-radius: 100px;
   background-color: transparent; }
+
+.main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .button__learn-more:hover, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .pets-slider__btn:hover {
+  background-color: #FDDCC4;
+  border: none; }
 
 .header .nav__list .nav__link, .main .main-page__container .main-page__box .main-page__text, .main .about-pets__container .about-pets__box .about-pets__text-box .about-pets__text {
   font-family: "Arial", sans-serif;
@@ -467,15 +475,18 @@ body {
       justify-content: space-between;
       align-items: center; }
       .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .catalog-friends__pets {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+        margin: 0 53px; }
+      .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .catalog-friends__pets-item {
         width: 270px;
         height: 435px;
         background-color: #FAFAFA;
         border-radius: 9px;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin-left: 38px;
-        margin-right: 38px; }
+        align-items: center; }
       .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .catalog-friends__name {
         font-family: "Georgia", sans-serif;
         font-style: normal;
@@ -496,9 +507,12 @@ body {
         line-height: 130%;
         letter-spacing: 0.06em;
         color: #292929; }
-      .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .button__next {
+      .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .pets-slider__btn {
         width: 52px;
-        height: 52px; }
+        height: 52px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
     .main .catalog-friends__container .catalog-friends__container-information .button__rest {
       width: 261px;
       height: 52px; }
