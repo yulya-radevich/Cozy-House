@@ -252,6 +252,47 @@ body {
       }
     }
   }
+  .help-shelter__container{
+    width: 100%;
+    height: 611px;
+    background-color: $color-whit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .help-shelter__container-information{
+      width: 1200px;
+      height: 431px;
+
+      .help-shelter__title{
+        font-family: $georgia-ff;
+        font-style: normal;
+        font-weight: 400;
+        font-size: $fs-grey-title;
+        line-height: 130%;
+        letter-spacing: $ls-text;
+        color: $color-grey-title;
+        width: 308px;
+        height: 90px;
+      }
+
+      .help-shelter__box{
+        width: 1026px;
+        height: 281px;
+        display: flex;
+
+        .help-shelter__name{
+          font-family: $georgia-ff;
+          font-style: normal;
+          font-weight: 400;
+          font-size: $fs-name-pets;
+          line-height: 115%;
+          letter-spacing: $ls-text;
+          color: $color-grey-title;
+        }
+      }
+    }
+  }
 }
 
 @import "media";

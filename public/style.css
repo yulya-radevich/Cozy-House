@@ -517,3 +517,36 @@ body {
       width: 261px;
       height: 52px; }
 
+.main .help-shelter__container {
+  width: 100%;
+  height: 611px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .main .help-shelter__container .help-shelter__container-information {
+    width: 1200px;
+    height: 431px; }
+    .main .help-shelter__container .help-shelter__container-information .help-shelter__title {
+      font-family: "Georgia", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 130%;
+      letter-spacing: 0.06em;
+      color: #545454;
+      width: 308px;
+      height: 90px; }
+    .main .help-shelter__container .help-shelter__container-information .help-shelter__box {
+      width: 1026px;
+      height: 281px;
+      display: flex; }
+      .main .help-shelter__container .help-shelter__container-information .help-shelter__box .help-shelter__name {
+        font-family: "Georgia", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 115%;
+        letter-spacing: 0.06em;
+        color: #545454; }
+
