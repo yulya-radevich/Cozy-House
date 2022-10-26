@@ -12,7 +12,7 @@
   letter-spacing: 0.06em; }
 
 .main .main-page__container .main-page__box .header__button:hover, .main .catalog-friends__container .catalog-friends__container-information .button__rest:hover {
-  background-color: #F1CDB3;
+  background-color: #FDDCC4;
   border: none; }
 
 .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .button__learn-more, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .pets-slider__btn {
@@ -522,11 +522,16 @@ body {
   height: 611px;
   background-color: #FFFFFF;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center; }
   .main .help-shelter__container .help-shelter__container-information {
     width: 1200px;
-    height: 431px; }
+    height: 431px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px; }
     .main .help-shelter__container .help-shelter__container-information .help-shelter__title {
       font-family: "Georgia", sans-serif;
       font-style: normal;
@@ -535,12 +540,21 @@ body {
       line-height: 130%;
       letter-spacing: 0.06em;
       color: #545454;
-      width: 308px;
-      height: 90px; }
+      width: 346px;
+      height: 90px;
+      text-align: center; }
     .main .help-shelter__container .help-shelter__container-information .help-shelter__box {
       width: 1026px;
       height: 281px;
-      display: flex; }
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      .main .help-shelter__container .help-shelter__container-information .help-shelter__box .help-shelter__item {
+        flex-basis: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly; }
       .main .help-shelter__container .help-shelter__container-information .help-shelter__box .help-shelter__name {
         font-family: "Georgia", sans-serif;
         font-style: normal;
