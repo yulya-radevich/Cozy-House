@@ -11,7 +11,7 @@
   color: #292929;
   letter-spacing: 0.06em; }
 
-.main .main-page__container .main-page__box .header__button:hover, .main .catalog-friends__container .catalog-friends__container-information .button__rest:hover {
+.main .main-page__container .main-page__box .header__button:hover, .main .catalog-friends__container .catalog-friends__container-information .button__rest:hover, .main .donation-container .donation-box .donation-box-text .donation__credit-cart:hover {
   background-color: #FDDCC4;
   border: none; }
 
@@ -391,7 +391,8 @@ body {
   .main .main-page__container .main-page__box {
     display: flex;
     width: 1200px;
-    height: 728px; }
+    height: 728px;
+    justify-content: space-between; }
     .main .main-page__container .main-page__box .main-page__box-text {
       width: 460px;
       margin-top: 134px; }
@@ -409,8 +410,6 @@ body {
     .main .main-page__container .main-page__box .header__button {
       width: 207px;
       height: 52px; }
-    .main .main-page__container .main-page__box .main-img__puppy {
-      margin-left: 42px; }
 
 .main .about-pets__container {
   width: 100%;
@@ -466,7 +465,6 @@ body {
       line-height: 130%;
       letter-spacing: 0.06em;
       color: #545454;
-      width: 400px;
       text-align: center; }
     .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box {
       width: 1200px;
@@ -550,11 +548,12 @@ body {
       justify-content: center;
       flex-wrap: wrap; }
       .main .help-shelter__container .help-shelter__container-information .help-shelter__box .help-shelter__item {
+        height: 113px;
         flex-basis: 20%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly; }
+        justify-content: space-between; }
       .main .help-shelter__container .help-shelter__container-information .help-shelter__box .help-shelter__name {
         font-family: "Georgia", sans-serif;
         font-style: normal;
@@ -563,4 +562,92 @@ body {
         line-height: 115%;
         letter-spacing: 0.06em;
         color: #545454; }
+
+.main .donation-container {
+  width: 100%;
+  height: 462px;
+  background-color: #F6F6F6;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px; }
+  .main .donation-container .donation-box {
+    width: 915px;
+    height: 282px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .main .donation-container .donation-box .credit-cart__puppy {
+      width: 505px;
+      height: 261px; }
+    .main .donation-container .donation-box .donation-box-text {
+      width: 380px;
+      height: 283px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      .main .donation-container .donation-box .donation-box-text .donation__title {
+        width: 300px;
+        font-family: "Georgia", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.06em;
+        color: #545454; }
+      .main .donation-container .donation-box .donation-box-text .donation__bank-account {
+        font-family: "Georgia", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 110%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.06em;
+        color: #545454; }
+      .main .donation-container .donation-box .donation-box-text .donation__credit-cart {
+        width: 349px;
+        height: 43px;
+        background-color: #F1CDB3;
+        border-radius: 9px;
+        border: none;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 115%;
+        font-family: "Georgia", sans-serif;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        letter-spacing: 0.06em;
+        color: #545454; }
+      .main .donation-container .donation-box .donation-box-text .donation__legal-information {
+        font-family: "Arial", sans-serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        color: #B2B2B2; }
+
+@media (min-width: 1280px) {
+  .help-shelter__item:nth-child(1) {
+    transform: translate(-61px, 0px); }
+  .help-shelter__item:nth-child(2) {
+    transform: translate(-31px, 0px); }
+  .help-shelter__item:nth-child(3) {
+    transform: translate(-10px, 0px); }
+  .help-shelter__item:nth-child(4) {
+    transform: translate(11px, 0px); }
+  .help-shelter__item:nth-child(5) {
+    transform: translate(53px, 0px); }
+  .help-shelter__item:nth-child(6) {
+    transform: translate(-76px, 29px); }
+  .help-shelter__item:nth-child(7) {
+    transform: translate(-67px, 29px); }
+  .help-shelter__item:nth-child(8) {
+    transform: translate(-18px, 29px); }
+  .help-shelter__item:nth-child(9) {
+    transform: translate(50px, 29px); } }
 
