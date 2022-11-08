@@ -27,7 +27,7 @@ $ls-text: 0.06em;
   line-height: 130%;
   font-family: $georgia-ff;
   color: $color-btn-txt;
-  letter-spacing: 0.06em;
+  letter-spacing: $ls-text;
 }
 
 %primary-button-filled{
