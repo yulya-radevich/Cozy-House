@@ -409,7 +409,10 @@ body {
       margin: 42px 0; }
     .main .main-page__container .main-page__box .header__button {
       width: 207px;
-      height: 52px; }
+      height: 52px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
 
 .main .about-pets__container {
   width: 100%;
@@ -651,7 +654,7 @@ body {
       justify-content: space-between;
       padding-top: 16px; }
     .footer .footer-container .footer-container__contacts {
-      width: 302px;
+      max-width: 302px;
       height: 234px;
       display: flex;
       flex-direction: column;

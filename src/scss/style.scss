@@ -93,6 +93,9 @@ body {
         @extend %primary-button;
         width: 207px;
         height: 52px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         &:hover {
           @extend %primary-button-filled;
@@ -421,7 +424,7 @@ body {
     }
 
     .footer-container__contacts {
-      width: 302px;
+      max-width: 302px;
       height: 234px;
       display: flex;
       flex-direction: column;
