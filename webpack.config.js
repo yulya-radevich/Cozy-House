@@ -22,5 +22,6 @@ module.exports = {
     new miniCss({
       filename: 'style.css',
     }),
-  ]
+  ],
+  target: 'web'
 };
