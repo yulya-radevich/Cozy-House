@@ -28,17 +28,142 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1100px) {
+  .header {
+    height: 150px;
 
+    .nav {
+      .nav__list {
+        padding: 29px 0;
+        justify-content: space-around;
+      }
+    }
+  }
+  .main {
+    .main-page__container {
+
+      .main-page__box {
+        height: 593px;
+
+        .main-img__puppy {
+          width: 569px;
+          height: 593px;
+        }
+      }
+    }
+
+    .catalog-friends__container-information {
+      padding: 0 40px;
+
+      .catalog-friends__pets {
+        margin: 0 10px;
+
+        .catalog-friends__pets-item{
+          margin: 0 20px;
+        }
+      }
+    }
+    .main-page__button {
+      align-self: center;
+    }
+
+    .help-shelter__container {
+      height: 779px;
+      justify-content: center;
+      align-items: center;
+
+      .help-shelter__container-information{
+        height: 100%;
+        justify-content: space-evenly;
+        margin: 0;
+
+      .help-shelter__box {
+        height: 449px;
+
+        .help-shelter__item {
+          flex-basis: 30%;
+        }
+      }
+      }
+    }
+  }
+  .footer {
+    height: 639px;
+    align-items: normal;
+
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      height: initial;
+
+      .footer-puppy {
+        width: 300px;
+        height: 310px;
+      }
+    }
+  }
 }
 
-@media (max-width: 972px) {
+@media (max-width: 1000px) {
 
+  .main {
+    .main-page__container {
+
+      .main-page__box {
+        height: 1015px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        .main-page__box-text {
+          margin: 0;
+        }
+      }
+    }
+
+    .about-pets__container {
+      height: 1048px;
+      padding: 0;
+      align-items: center;
+
+      .about-pets__box {
+        flex-direction: column-reverse;
+        height: 868px;
+        justify-content: space-around;
+
+        .about-pets__text-box {
+          margin: 0;
+        }
+      }
+    }
+
+    .donation-container {
+      height: 783px;
+
+      .donation-box {
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+      }
+    }
+  }
+  .footer {
+
+    .footer-container {
+
+      .footer-container__box {
+        justify-content: space-around;
+        padding-top: 30px;
+      }
+    }
+  }
 }
+
 
 @media (max-width: 768px) {
 
 }
+
 
 @media (max-width: 600px) {
 
