@@ -26,6 +26,10 @@ body {
     justify-content: space-between;
     align-items: center;
 
+    #menu__toggle {
+      opacity: 0;
+    }
+
     .header__nav__link {
       display: flex;
       width: 443px;
@@ -63,6 +67,7 @@ body {
   .main-page__container {
     display: flex;
     padding: 0 40px;
+    justify-content: center;
 
     .main-page__box {
       display: flex;
@@ -191,14 +196,14 @@ body {
         justify-content: space-between;
         align-items: center;
         overflow: hidden;
-        position: relative;
+
 
         .catalog-friends__pets {
-          width: 82.5%;
+          width: 100%;
           display: flex;
-          justify-content: space-between;
           overflow-x: scroll;
-          position: relative;
+          justify-content: space-between;
+          margin: 0 53px;
           }
 
         .catalog-friends__pets-item {
