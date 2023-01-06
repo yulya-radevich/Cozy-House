@@ -1,0 +1,101 @@
+@import "vars";
+
+.body-pets {
+  background: #F6F6F6;
+  width: 100%;
+}
+
+.header.pets-header {
+  height: 120px;
+
+  .nav {
+
+    .nav__list.nav__list-pets {
+      background: #FFFFFF;
+      padding: 30px 40px;
+
+      .nav__link.nav__link-pets {
+        color: #292929;
+      }
+    }
+  }
+}
+
+main {
+
+  .catalog-friends-out-pets__container {
+    width: 100%;
+    min-height: 1342px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+
+    .catalog-friends__title {
+      @extend %text-title-pets;
+    }
+
+    .catalog-friends__pets-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+
+      .catalog-friends__our-pets {
+        @extend %pets-item;
+        margin-top: 30px;
+        flex-basis: 20%;
+        margin-left: 10px;
+        margin-right: 10px;
+
+
+        .catalog-friends__name {
+          @extend %text-name-pets;
+        }
+
+        .button-our-pets__learn-more {
+          @extend %transparent-button;
+
+          &:hover {
+            @extend %filled-button;
+          }
+        }
+      }
+    }
+
+    .catalog-friends__our-pets-btn-box {
+      display: flex;
+      width: 340px;
+      justify-content: space-between;
+      padding-bottom: 73px;
+      margin-top: 20px;
+
+      .pets-slider__btn {
+        @extend %transparent-button;
+        width: 52px;
+        height: 52px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .pets-slider__btn[ disabled ] {
+      border-color: #CDCDCD;
+        svg{
+          fill: red;
+        }
+    }
+
+      .arrow-left {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+.footer {
+  background-image: url(../img/start-screen-gradient-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
