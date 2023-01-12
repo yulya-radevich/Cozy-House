@@ -209,6 +209,8 @@ body {
 
         .button__learn-more {
           @extend %transparent-button;
+          width: 187px;
+          height: 52px;
 
           &:hover {
             @extend %filled-button;
@@ -451,3 +453,4 @@ body {
 }
 
 @import "media";
+@import "pets";

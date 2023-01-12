@@ -1,7 +1,7 @@
 @import "vars";
 
 .body-pets {
-  background: #F6F6F6;
+  background: $color-white-catalog-friends;
   width: 100%;
 }
 
@@ -11,11 +11,11 @@
   .nav {
 
     .nav__list.nav__list-pets {
-      background: #FFFFFF;
+      background: $color-white;
       padding: 30px 40px;
 
       .nav__link.nav__link-pets {
-        color: #292929;
+        color: $color-btn-txt;
       }
     }
   }
@@ -23,7 +23,7 @@
 
 main {
 
-  .catalog-friends-out-pets__container {
+  .catalog-out-pets__container {
     width: 100%;
     min-height: 1342px;
     display: flex;
@@ -32,16 +32,16 @@ main {
     align-items: center;
     padding-top: 40px;
 
-    .catalog-friends__title {
+    .catalog-out-pets__title {
       @extend %text-title-pets;
     }
 
-    .catalog-friends__pets-container {
+    .catalog-our-pets__box-information {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
 
-      .catalog-friends__our-pets {
+      .catalog-our-pets__items {
         @extend %pets-item;
         margin-top: 30px;
         flex-basis: 20%;
@@ -55,6 +55,8 @@ main {
 
         .button-our-pets__learn-more {
           @extend %transparent-button;
+          width: 187px;
+          height: 52px;
 
           &:hover {
             @extend %filled-button;
@@ -63,7 +65,7 @@ main {
       }
     }
 
-    .catalog-friends__our-pets-btn-box {
+    .catalog-our-pets__btn-box {
       display: flex;
       width: 340px;
       justify-content: space-between;
@@ -77,14 +79,17 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
+        z-index: -1;
       }
 
       .pets-slider__btn[ disabled ] {
-      border-color: #CDCDCD;
-        svg{
-          fill: red;
+        border-color: $color-grey;
+
+        path {
+          fill: $color-grey;
         }
-    }
+
+      }
 
       .arrow-left {
         transform: rotate(180deg);
@@ -98,4 +103,26 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+
+  main .catalog-out-pets__container .catalog-our-pets__btn-box {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    padding-bottom: 73px;
+    margin-top: 20px;
+  }
+
+  .menu__btn.menu__black > span,
+  .menu__btn.menu__black > span::before,
+  .menu__btn.menu__black > span::after {
+    background-color: $color-burger;
+  }
+
+  .header .nav .nav__list .header__nav__link.header__nav__link-pets {
+    background-color: $color-white-catalog-friends;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+  }
 }
