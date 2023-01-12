@@ -1,0 +1,128 @@
+@import "vars";
+
+.body-pets {
+  background: $color-white-catalog-friends;
+  width: 100%;
+}
+
+.header.pets-header {
+  height: 120px;
+
+  .nav {
+
+    .nav__list.nav__list-pets {
+      background: $color-white;
+      padding: 30px 40px;
+
+      .nav__link.nav__link-pets {
+        color: $color-btn-txt;
+      }
+    }
+  }
+}
+
+main {
+
+  .catalog-out-pets__container {
+    width: 100%;
+    min-height: 1342px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+
+    .catalog-out-pets__title {
+      @extend %text-title-pets;
+    }
+
+    .catalog-our-pets__box-information {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+
+      .catalog-our-pets__items {
+        @extend %pets-item;
+        margin-top: 30px;
+        flex-basis: 20%;
+        margin-left: 10px;
+        margin-right: 10px;
+
+
+        .catalog-friends__name {
+          @extend %text-name-pets;
+        }
+
+        .button-our-pets__learn-more {
+          @extend %transparent-button;
+          width: 187px;
+          height: 52px;
+
+          &:hover {
+            @extend %filled-button;
+          }
+        }
+      }
+    }
+
+    .catalog-our-pets__btn-box {
+      display: flex;
+      width: 340px;
+      justify-content: space-between;
+      padding-bottom: 73px;
+      margin-top: 20px;
+
+      .pets-slider__btn {
+        @extend %transparent-button;
+        width: 52px;
+        height: 52px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: -1;
+      }
+
+      .pets-slider__btn[ disabled ] {
+        border-color: $color-grey;
+
+        path {
+          fill: $color-grey;
+        }
+
+      }
+
+      .arrow-left {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+.footer {
+  background-image: url(../img/start-screen-gradient-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+
+  main .catalog-out-pets__container .catalog-our-pets__btn-box {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    padding-bottom: 73px;
+    margin-top: 20px;
+  }
+
+  .menu__btn.menu__black > span,
+  .menu__btn.menu__black > span::before,
+  .menu__btn.menu__black > span::after {
+    background-color: $color-burger;
+  }
+
+  .header .nav .nav__list .header__nav__link.header__nav__link-pets {
+    background-color: $color-white-catalog-friends;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+  }
+}

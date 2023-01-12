@@ -15,12 +15,28 @@
   background-color: #FDDCC4;
   border: none; }
 
-.main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .button__learn-more, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .pets-slider__btn {
+main .catalog-out-pets__container .catalog-our-pets__box-information .catalog-our-pets__items, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .catalog-friends__pets-item {
+  width: 270px;
+  height: 435px;
+  background-color: #FAFAFA;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+main .catalog-out-pets__container .catalog-our-pets__box-information .catalog-our-pets__items .button-our-pets__learn-more, main .catalog-out-pets__container .catalog-our-pets__btn-box .pets-slider__btn, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .button__learn-more, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .pets-slider__btn {
   border: 2px solid #F1CDB3;
   border-radius: 100px;
-  background-color: transparent; }
+  background-color: transparent;
+  font-family: "Georgia", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929; }
 
-.main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .button__learn-more:hover, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .pets-slider__btn:hover {
+main .catalog-out-pets__container .catalog-our-pets__box-information .catalog-our-pets__items .button-our-pets__learn-more:hover, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .button__learn-more:hover, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .pets-slider__btn:hover {
   background-color: #FDDCC4;
   border: none; }
 
@@ -28,6 +44,27 @@
   font-family: "Arial", sans-serif;
   font-size: 15px;
   line-height: 160%; }
+
+main .catalog-out-pets__container .catalog-out-pets__title, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__title {
+  font-family: "Georgia", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  text-align: center; }
+
+main .catalog-out-pets__container .catalog-our-pets__box-information .catalog-our-pets__items .catalog-friends__name, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .catalog-friends__name {
+  font-family: "Georgia", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 30px;
+  margin-top: 30px; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -345,6 +382,144 @@ a {
   margin: 0;
   padding: 0; }
 
+.main .main-page__container .main-page__box .main-page__button, .main .catalog-friends__container .catalog-friends__container-information .button__rest {
+  background: #F1CDB3;
+  border-radius: 100px;
+  border: none;
+  font-size: 17px;
+  line-height: 130%;
+  font-family: "Georgia", sans-serif;
+  color: #292929;
+  letter-spacing: 0.06em; }
+
+.main .main-page__container .main-page__box .main-page__button:hover, .main .catalog-friends__container .catalog-friends__container-information .button__rest:hover, .main .donation-container .donation-box .donation-box-text .donation__credit-cart:hover {
+  background-color: #FDDCC4;
+  border: none; }
+
+main .catalog-out-pets__container .catalog-our-pets__box-information .catalog-our-pets__items, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .catalog-friends__pets-item {
+  width: 270px;
+  height: 435px;
+  background-color: #FAFAFA;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+main .catalog-out-pets__container .catalog-our-pets__box-information .catalog-our-pets__items .button-our-pets__learn-more, main .catalog-out-pets__container .catalog-our-pets__btn-box .pets-slider__btn, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .button__learn-more, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .pets-slider__btn {
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  background-color: transparent;
+  font-family: "Georgia", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929; }
+
+main .catalog-out-pets__container .catalog-our-pets__box-information .catalog-our-pets__items .button-our-pets__learn-more:hover, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .button__learn-more:hover, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .pets-slider__btn:hover {
+  background-color: #FDDCC4;
+  border: none; }
+
+.header .nav__list .nav__link, .main .main-page__container .main-page__box .main-page__text, .main .about-pets__container .about-pets__box .about-pets__text-box .about-pets__text {
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 160%; }
+
+main .catalog-out-pets__container .catalog-out-pets__title, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__title {
+  font-family: "Georgia", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  text-align: center; }
+
+main .catalog-out-pets__container .catalog-our-pets__box-information .catalog-our-pets__items .catalog-friends__name, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .catalog-friends__name {
+  font-family: "Georgia", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 30px;
+  margin-top: 30px; }
+
+.body-pets {
+  background: #F6F6F6;
+  width: 100%; }
+
+.header.pets-header {
+  height: 120px; }
+  .header.pets-header .nav .nav__list.nav__list-pets {
+    background: #FFFFFF;
+    padding: 30px 40px; }
+    .header.pets-header .nav .nav__list.nav__list-pets .nav__link.nav__link-pets {
+      color: #292929; }
+
+main .catalog-out-pets__container {
+  width: 100%;
+  min-height: 1342px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px; }
+  main .catalog-out-pets__container .catalog-our-pets__box-information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+    main .catalog-out-pets__container .catalog-our-pets__box-information .catalog-our-pets__items {
+      margin-top: 30px;
+      flex-basis: 20%;
+      margin-left: 10px;
+      margin-right: 10px; }
+      main .catalog-out-pets__container .catalog-our-pets__box-information .catalog-our-pets__items .button-our-pets__learn-more {
+        width: 187px;
+        height: 52px; }
+  main .catalog-out-pets__container .catalog-our-pets__btn-box {
+    display: flex;
+    width: 340px;
+    justify-content: space-between;
+    padding-bottom: 73px;
+    margin-top: 20px; }
+    main .catalog-out-pets__container .catalog-our-pets__btn-box .pets-slider__btn {
+      width: 52px;
+      height: 52px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: -1; }
+    main .catalog-out-pets__container .catalog-our-pets__btn-box .pets-slider__btn[disabled] {
+      border-color: #CDCDCD; }
+      main .catalog-out-pets__container .catalog-our-pets__btn-box .pets-slider__btn[disabled] path {
+        fill: #CDCDCD; }
+    main .catalog-out-pets__container .catalog-our-pets__btn-box .arrow-left {
+      transform: rotate(180deg); }
+
+.footer {
+  background-image: url(2ee8932e0e75685ee150.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+@media (max-width: 768px) {
+  main .catalog-out-pets__container .catalog-our-pets__btn-box {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    padding-bottom: 73px;
+    margin-top: 20px; }
+  .menu__btn.menu__black > span,
+  .menu__btn.menu__black > span::before,
+  .menu__btn.menu__black > span::after {
+    background-color: #000000; }
+  .header .nav .nav__list .header__nav__link.header__nav__link-pets {
+    background-color: #F6F6F6;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2); } }
+
 body {
   width: 100%;
   height: 908px;
@@ -471,15 +646,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between; }
-    .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__title {
-      font-family: "Georgia", sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 35px;
-      line-height: 130%;
-      letter-spacing: 0.06em;
-      color: #545454;
-      text-align: center; }
     .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box {
       max-width: 1200px;
       width: 100%;
@@ -494,34 +660,9 @@ body {
         overflow-x: scroll;
         justify-content: space-between;
         margin: 0 53px; }
-      .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .catalog-friends__pets-item {
-        width: 270px;
-        height: 435px;
-        background-color: #FAFAFA;
-        border-radius: 9px;
-        display: flex;
-        flex-direction: column;
-        align-items: center; }
-      .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .catalog-friends__name {
-        font-family: "Georgia", sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 23px;
-        letter-spacing: 0.06em;
-        color: #545454;
-        margin-bottom: 30px;
-        margin-top: 30px; }
       .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .button__learn-more {
         width: 187px;
-        height: 52px;
-        font-family: "Georgia", sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 17px;
-        line-height: 130%;
-        letter-spacing: 0.06em;
-        color: #292929; }
+        height: 52px; }
       .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .pets-slider__btn {
         width: 52px;
         height: 52px;
@@ -969,4 +1110,142 @@ body {
       .footer .footer-container .footer-puppy {
         width: 260px;
         height: 269px; } }
+
+.main .main-page__container .main-page__box .main-page__button, .main .catalog-friends__container .catalog-friends__container-information .button__rest {
+  background: #F1CDB3;
+  border-radius: 100px;
+  border: none;
+  font-size: 17px;
+  line-height: 130%;
+  font-family: "Georgia", sans-serif;
+  color: #292929;
+  letter-spacing: 0.06em; }
+
+.main .main-page__container .main-page__box .main-page__button:hover, .main .catalog-friends__container .catalog-friends__container-information .button__rest:hover, .main .donation-container .donation-box .donation-box-text .donation__credit-cart:hover {
+  background-color: #FDDCC4;
+  border: none; }
+
+main .catalog-out-pets__container .catalog-our-pets__box-information .catalog-our-pets__items, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .catalog-friends__pets-item {
+  width: 270px;
+  height: 435px;
+  background-color: #FAFAFA;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+main .catalog-out-pets__container .catalog-our-pets__box-information .catalog-our-pets__items .button-our-pets__learn-more, main .catalog-out-pets__container .catalog-our-pets__btn-box .pets-slider__btn, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .button__learn-more, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .pets-slider__btn {
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  background-color: transparent;
+  font-family: "Georgia", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929; }
+
+main .catalog-out-pets__container .catalog-our-pets__box-information .catalog-our-pets__items .button-our-pets__learn-more:hover, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .button__learn-more:hover, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .pets-slider__btn:hover {
+  background-color: #FDDCC4;
+  border: none; }
+
+.header .nav__list .nav__link, .main .main-page__container .main-page__box .main-page__text, .main .about-pets__container .about-pets__box .about-pets__text-box .about-pets__text {
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 160%; }
+
+main .catalog-out-pets__container .catalog-out-pets__title, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__title {
+  font-family: "Georgia", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  text-align: center; }
+
+main .catalog-out-pets__container .catalog-our-pets__box-information .catalog-our-pets__items .catalog-friends__name, .main .catalog-friends__container .catalog-friends__container-information .catalog-friends__box .catalog-friends__name {
+  font-family: "Georgia", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 30px;
+  margin-top: 30px; }
+
+.body-pets {
+  background: #F6F6F6;
+  width: 100%; }
+
+.header.pets-header {
+  height: 120px; }
+  .header.pets-header .nav .nav__list.nav__list-pets {
+    background: #FFFFFF;
+    padding: 30px 40px; }
+    .header.pets-header .nav .nav__list.nav__list-pets .nav__link.nav__link-pets {
+      color: #292929; }
+
+main .catalog-out-pets__container {
+  width: 100%;
+  min-height: 1342px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px; }
+  main .catalog-out-pets__container .catalog-our-pets__box-information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+    main .catalog-out-pets__container .catalog-our-pets__box-information .catalog-our-pets__items {
+      margin-top: 30px;
+      flex-basis: 20%;
+      margin-left: 10px;
+      margin-right: 10px; }
+      main .catalog-out-pets__container .catalog-our-pets__box-information .catalog-our-pets__items .button-our-pets__learn-more {
+        width: 187px;
+        height: 52px; }
+  main .catalog-out-pets__container .catalog-our-pets__btn-box {
+    display: flex;
+    width: 340px;
+    justify-content: space-between;
+    padding-bottom: 73px;
+    margin-top: 20px; }
+    main .catalog-out-pets__container .catalog-our-pets__btn-box .pets-slider__btn {
+      width: 52px;
+      height: 52px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: -1; }
+    main .catalog-out-pets__container .catalog-our-pets__btn-box .pets-slider__btn[disabled] {
+      border-color: #CDCDCD; }
+      main .catalog-out-pets__container .catalog-our-pets__btn-box .pets-slider__btn[disabled] path {
+        fill: #CDCDCD; }
+    main .catalog-out-pets__container .catalog-our-pets__btn-box .arrow-left {
+      transform: rotate(180deg); }
+
+.footer {
+  background-image: url(2ee8932e0e75685ee150.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+@media (max-width: 768px) {
+  main .catalog-out-pets__container .catalog-our-pets__btn-box {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    padding-bottom: 73px;
+    margin-top: 20px; }
+  .menu__btn.menu__black > span,
+  .menu__btn.menu__black > span::before,
+  .menu__btn.menu__black > span::after {
+    background-color: #000000; }
+  .header .nav .nav__list .header__nav__link.header__nav__link-pets {
+    background-color: #F6F6F6;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2); } }
 

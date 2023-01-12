@@ -8,6 +8,7 @@ $color-link-hover: #FDDCC4;
 $color-title-grey: #545454;
 $color-grey-dark: #4C4C4C;
 $color-btn-txt: #292929;
+$color-burger: #000000;
 $georgia-ff: 'Georgia', sans-serif;
 $arial-ff: 'Arial', sans-serif;
 $fz-primary: 15px;
@@ -35,10 +36,27 @@ $ls-text: 0.06em;
   border: none;
 }
 
+%pets-item{
+  width: 270px;
+  height: 435px;
+  background-color: $color-white-pets;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 %transparent-button{
   border: 2px solid $color-link;
   border-radius: 100px;
   background-color: transparent;
+  font-family: $georgia-ff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $fz-button;
+  line-height: 130%;
+  letter-spacing: $ls-text;
+  color: $color-btn-txt;
 }
 
 %filled-button{
@@ -50,4 +68,27 @@ $ls-text: 0.06em;
   font-family: $arial-ff;
   font-size: $fz-primary;
   line-height: 160%;
+}
+
+%text-title-pets{
+  font-family: $georgia-ff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $fz-title-grey;
+  line-height: 130%;
+  letter-spacing: $ls-text;
+  color: $color-title-grey;
+  text-align: center;
+}
+
+%text-name-pets{
+  font-family: $georgia-ff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $fz-pets-name;
+  line-height: 23px;
+  letter-spacing: $ls-text;
+  color: $color-title-grey;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
